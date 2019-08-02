@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Didact+Gothic|Cabin&display=swap');
+
+/* NavBar*/
+
+.NavbarColor {
+    background-color: #002d61;
+}
+
+.navbar .navbar-nav .nav-link,
+.nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Droid Sans', sans-serif;
+    cursor: pointer;
+}
+
+.navbar .nav-link {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 10px;
+}
+
+#navbar-toggler-icon {
+    color: #f3f3f3;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+
+/* Others */
+
+.txtCorFoc1 {
+    color: #002d61;
+}
+
+.txtCorFoc2 {
+    color: #002d61;
+    text-shadow: 2px 2px 4px #000f1f;
+}
+
+
+/* Card/Form */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container-form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #002d61;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    background: #001e3e;
+    color: #fff;
+}
+
+.custom-select {
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #8d8d8d;
+}
+
+
+/* Fontes */
+
+.droidSansFont {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.cabinFont {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+/* Footer */
+
+footer .section-title {
+    text-align: center;
+    color: #001e3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #002d61 !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767.98px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #002d61;
+    font-size: 12px;
+    border: 1px solid #002d61;
+    text-shadow: 0px -1px 0px #00000010;
+}
+
+.swal-overlay {
+    background-color: #002d6150;
+}
