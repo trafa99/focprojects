@@ -15,3 +15,10 @@ https://www.oswaldocruz.br/servicos/rh/trabalhe_conosco.asp
 # Página de Resultados de Pesquisa
 
 https://www.oswaldocruz.br/www/VIEW/pesquisa_resultado.asp
+
+## Criado com
+
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [JQuery UI](https://jqueryui.com/)
+* [JQuery Mobile](https://jquerymobile.com/)
+* [SweetAlert](https://sweetalert.js.org/docs/)
