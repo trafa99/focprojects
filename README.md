@@ -2,7 +2,7 @@ Projetos que realizei voltados ao site institucional das Faculdades Oswaldo Cruz
 
 # Visite - Faculdades Oswaldo Cruz
 
-Versão que está no ar atualmente: https://www.oswaldocruz.br/visite/VIEW/default.asp (Todas as sessões foram realizadas por mim)
+Versão que está no ar atualmente: https://www.oswaldocruz.br/visite/VIEW/default.asp
 
 # Página da Equipe
 
